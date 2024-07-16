@@ -1,1 +1,32 @@
-<head><script defer src="bundle.js"></script></head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<script defer src="bundle.js"></script></head>
+<body>
+    <div id="searchbar">
+        <input id="search-input" type="search" placeholder="enter city">
+    </div>
+    <div id="display-container-today">
+        <div class="address-time-container">
+            <h2 id="address"> </h2>
+            <p id="time"> </p>
+        </div>
+        <div class="day-description-container">
+            <div id="day-container">
+                <h3 id="day"></h3>
+            </div>
+            <div id="description-container">
+                <p id="temp"></p>
+                <p id="humidity"></p>
+                <p id="feels-like"></p>
+                <p id="uv"></p>
+            </div>
+        </div>
+    </div>
+    <div id="display-container-week">
+    </div>
+</body>
+</html>
